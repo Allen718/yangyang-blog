@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>手风琴组件 | 个人主页</title>
+    <meta name="generator" content="VuePress 1.5.3">
+    
+    <meta name="description" content="杨杨的博客">
+    <link rel="preload" href="/yangyang-blog/assets/css/0.styles.ef1ea67f.css" as="style"><link rel="preload" href="/yangyang-blog/assets/js/app.a824f6ad.js" as="script"><link rel="preload" href="/yangyang-blog/assets/js/2.8963be7f.js" as="script"><link rel="preload" href="/yangyang-blog/assets/js/31.99421758.js" as="script"><link rel="prefetch" href="/yangyang-blog/assets/js/10.8bc5e3b5.js"><link rel="prefetch" href="/yangyang-blog/assets/js/11.3288c351.js"><link rel="prefetch" href="/yangyang-blog/assets/js/12.99786987.js"><link rel="prefetch" href="/yangyang-blog/assets/js/13.16893be0.js"><link rel="prefetch" href="/yangyang-blog/assets/js/14.dbd35d51.js"><link rel="prefetch" href="/yangyang-blog/assets/js/15.08d6872f.js"><link rel="prefetch" href="/yangyang-blog/assets/js/16.b2e9a03c.js"><link rel="prefetch" href="/yangyang-blog/assets/js/17.5a114ef1.js"><link rel="prefetch" href="/yangyang-blog/assets/js/18.45f17996.js"><link rel="prefetch" href="/yangyang-blog/assets/js/19.bb7f861f.js"><link rel="prefetch" href="/yangyang-blog/assets/js/20.30d8a940.js"><link rel="prefetch" href="/yangyang-blog/assets/js/21.df50662e.js"><link rel="prefetch" href="/yangyang-blog/assets/js/22.e9b97a2f.js"><link rel="prefetch" href="/yangyang-blog/assets/js/23.4d4146c7.js"><link rel="prefetch" href="/yangyang-blog/assets/js/24.a3abece6.js"><link rel="prefetch" href="/yangyang-blog/assets/js/25.d23ad90c.js"><link rel="prefetch" href="/yangyang-blog/assets/js/26.bbb8c4d0.js"><link rel="prefetch" href="/yangyang-blog/assets/js/27.d5b6268d.js"><link rel="prefetch" href="/yangyang-blog/assets/js/28.96024759.js"><link rel="prefetch" href="/yangyang-blog/assets/js/29.b9e7b7b4.js"><link rel="prefetch" href="/yangyang-blog/assets/js/3.492e666a.js"><link rel="prefetch" href="/yangyang-blog/assets/js/30.cc6a8fdc.js"><link rel="prefetch" href="/yangyang-blog/assets/js/32.018d7e0b.js"><link rel="prefetch" href="/yangyang-blog/assets/js/33.ce4e525a.js"><link rel="prefetch" href="/yangyang-blog/assets/js/34.ca08d911.js"><link rel="prefetch" href="/yangyang-blog/assets/js/35.377c9a13.js"><link rel="prefetch" href="/yangyang-blog/assets/js/36.599923fd.js"><link rel="prefetch" href="/yangyang-blog/assets/js/37.abec2f31.js"><link rel="prefetch" href="/yangyang-blog/assets/js/38.dab08b8a.js"><link rel="prefetch" href="/yangyang-blog/assets/js/39.87e3d604.js"><link rel="prefetch" href="/yangyang-blog/assets/js/4.e3b17ef2.js"><link rel="prefetch" href="/yangyang-blog/assets/js/40.40c87c5f.js"><link rel="prefetch" href="/yangyang-blog/assets/js/41.d2e5a34b.js"><link rel="prefetch" href="/yangyang-blog/assets/js/42.7b09e708.js"><link rel="prefetch" href="/yangyang-blog/assets/js/43.15065050.js"><link rel="prefetch" href="/yangyang-blog/assets/js/44.a6da690c.js"><link rel="prefetch" href="/yangyang-blog/assets/js/45.4ded5c79.js"><link rel="prefetch" href="/yangyang-blog/assets/js/46.4b4c52a9.js"><link rel="prefetch" href="/yangyang-blog/assets/js/47.298bf686.js"><link rel="prefetch" href="/yangyang-blog/assets/js/48.1334e1af.js"><link rel="prefetch" href="/yangyang-blog/assets/js/49.96860a4c.js"><link rel="prefetch" href="/yangyang-blog/assets/js/5.cb67b430.js"><link rel="prefetch" href="/yangyang-blog/assets/js/50.d07aca54.js"><link rel="prefetch" href="/yangyang-blog/assets/js/51.6f6b1a0c.js"><link rel="prefetch" href="/yangyang-blog/assets/js/52.1ae2275e.js"><link rel="prefetch" href="/yangyang-blog/assets/js/53.ea310c17.js"><link rel="prefetch" href="/yangyang-blog/assets/js/54.c35911e6.js"><link rel="prefetch" href="/yangyang-blog/assets/js/55.b21af298.js"><link rel="prefetch" href="/yangyang-blog/assets/js/6.a746c800.js"><link rel="prefetch" href="/yangyang-blog/assets/js/7.1764c4c7.js"><link rel="prefetch" href="/yangyang-blog/assets/js/8.22ff36bb.js"><link rel="prefetch" href="/yangyang-blog/assets/js/9.051e6cac.js">
+    <link rel="stylesheet" href="/yangyang-blog/assets/css/0.styles.ef1ea67f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/yangyang-blog/" class="home-link router-link-active"><img src="/yangyang-blog/image/logo.png" alt="个人主页" class="logo"> <span class="site-name can-hide">个人主页</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/yangyang-blog/basic/" class="nav-link">
+  基础知识
+</a></div><div class="nav-item"><a href="/yangyang-blog/project/" class="nav-link router-link-active">
+  项目笔记
+</a></div><div class="nav-item"><a href="/yangyang-blog/mistake/" class="nav-link">
+  面试题
+</a></div><div class="nav-item"><a href="https://github.com/Allen718/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/yangyang-blog/basic/" class="nav-link">
+  基础知识
+</a></div><div class="nav-item"><a href="/yangyang-blog/project/" class="nav-link router-link-active">
+  项目笔记
+</a></div><div class="nav-item"><a href="/yangyang-blog/mistake/" class="nav-link">
+  面试题
+</a></div><div class="nav-item"><a href="https://github.com/Allen718/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>前端导航</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/yangyang-blog/project/nav/导航项目.html" class="sidebar-link">项目介绍</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span> 快速记账 vue版本</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span> 轻松记账 react版本</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span> 造轮子 vue2.0版本</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/yangyang-blog/project/gulu-ui/序言.html" class="sidebar-link">序言</a></li><li><a href="/yangyang-blog/project/gulu-ui/单元测试.html" class="sidebar-link">单元测试</a></li><li><a href="/yangyang-blog/project/gulu-ui/button组件.html" class="sidebar-link">创建Button 组件</a></li><li><a href="/yangyang-blog/project/gulu-ui/input.html" class="sidebar-link">组件input的学习回顾笔记</a></li><li><a href="/yangyang-blog/project/gulu-ui/popover.html" class="sidebar-link">popover组件回顾</a></li><li><a href="/yangyang-blog/project/gulu-ui/tabs.html" class="sidebar-link">/project/gulu-ui/tabs.html</a></li><li><a href="/yangyang-blog/project/gulu-ui/toast组件.html" class="sidebar-link">Toast</a></li><li><a href="/yangyang-blog/project/gulu-ui/手风琴组件.html" class="active sidebar-link">手风琴组件</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/yangyang-blog/project/gulu-ui/手风琴组件.html#手风琴组件" class="sidebar-link">手风琴组件</a></li></ul></li><li><a href="/yangyang-blog/project/gulu-ui/页面布局组件.html" class="sidebar-link">layout布局</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span> 造轮子 vue3.0版本</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="手风琴组件"><a href="#手风琴组件" class="header-anchor">#</a> 手风琴组件</h2> <p>手风琴组件就是一个具有折叠功能的面板，折叠面板有两种模式，一种就是每次只允许点开一项，还有一种就是可以同时展开多项。</p> <h3 id="书写html和css"><a href="#书写html和css" class="header-anchor">#</a> 书写html和css</h3> <p>css样式就不展开了，可以参考其他ui组件库样式</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;template&gt;
+  &lt;div class=&quot;collapseItem&quot;&gt;
+    &lt;div class=&quot;title&quot; @click=&quot;open=!open&quot;&gt;
+      {{title}}
+    &lt;/div&gt;
+    &lt;div class=&quot;content&quot; v-if=&quot;open&quot;&gt;
+      &lt;slot&gt;&lt;/slot&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+script&gt;
+  export default {
+    name: &quot;GuluCollapseItem&quot;,
+    props: {
+        name:{
+            type:String,
+            required:true
+        }
+      title: {
+        type: String,
+        required: true
+      }
+    },
+    data () {
+      return {
+        open: false
+      }
+    }
+  }
+&lt;/script&gt;
+
+</code></pre></div><h3 id="单项展开功能实现"><a href="#单项展开功能实现" class="header-anchor">#</a> 单项展开功能实现</h3> <p>单项展开功能实现，每次只能展开一项的关键就是当我没有展开时，点击展开，当点击另一项的展开的时候要把上一项关闭，这涉及到兄弟组件通信，使用eventbus,在父组件collapse中创建一个eventbus</p> <div class="language- extra-class"><pre class="language-text"><code>props: {
+      single: {
+        type: Boolean,
+        default: false
+      }
+    },
+    data () {
+      return {
+        eventBus: new Vue()
+      }
+    },
+    provide () {
+      if (this.single) {
+        return {
+          eventBus: this.eventBus
+        }
+      }
+    }
+      mounted () {
+      this.eventBus.$on('update:selected', (name) =&gt; {
+        this.$emit('update:selected', name)
+      })
+
+    子组件
+    inject: ['eventBus'],
+    mounted () {
+      this.eventBus &amp;&amp; this.eventBus.$on('update:selected', (vm) =&gt; {
+        if (vm !== this) {
+          this.close()
+        }
+      })
+    },
+    methods: {
+      toggle () {
+        if (this.open) {
+          this.open = false
+        } else {
+          this.open = true
+          this.eventBus &amp;&amp; this.eventBus.$emit('update:selected', this)
+        }
+      },
+      close () {
+        this.open = false
+      }
+    },
+  }
+&lt;/script&gt;
+</code></pre></div><h3 id="支持默认打开"><a href="#支持默认打开" class="header-anchor">#</a> 支持默认打开</h3> <div class="language- extra-class"><pre class="language-text"><code>在collapse组件里面
+  selected: {
+        type: String,
+      }
+      mounted () {
+      this.eventBus.$emit('update:selected', this.selected)
+      this.eventBus.$on('update:selected', (name) =&gt; {
+        this.$emit('update:selected', name)
+      })
+    }
+    在collapse-item 组件里面
+     mounted () {
+      this.eventBus &amp;&amp; this.eventBus.$on('update:selected', (name) =&gt; {
+        if (name !== this.name) {
+          this.close()
+        } else {
+         this.open = true
+        }
+      })
+</code></pre></div><h3 id="改变selected类型"><a href="#改变selected类型" class="header-anchor">#</a> 改变selected类型</h3> <p>支持默认实现以后，发现多项展开失效了，所以需要将selected重新设计一下，变成一个数组，并且将展开，关闭全都交给父组件来统一控制</p> <div class="language- extra-class"><pre class="language-text"><code> mounted () { 
+     this.eventBus.$on('update:addSelected', (name) =&gt; {
+       let selectedCopy = JSON.parse(JSON.stringify(this.selected))
+       if (this.single) {
+         selectedCopy = [name]
+       } else {
+         selectedCopy.push(name)
+       }
+       this.eventBus.$emit('update:selected', selectedCopy)
+       this.$emit('update:selected', selectedCopy)
+     })
+     this.eventBus.$on('update:removeSelected', (name) =&gt; {
+       let selectedCopy = JSON.parse(JSON.stringify(this.selected))
+       let index = selectedCopy.indexOf(name)
+       selectedCopy.splice(index, 1)
+       this.eventBus.$emit('update:selected', selectedCopy)
+       this.$emit('update:selected', selectedCopy)
+       子组件里面
+    methods: {
+     toggle() {
+       if (this.open === false) {
+         this.eventBus &amp;&amp; this.eventBus.$emit(&quot;add:selected&quot;, this.name)
+       } else {
+         this.eventBus.$emit('remove:selected',this.name)
+          this.open = false
+       }
+     }
+   },
+   mounted() {
+     this.eventBus &amp;&amp; this.eventBus.$on(&quot;update:selected&quot;, (names) =&gt; {
+       if (names.indexOf(this.name)&gt;=0) {
+         this.open=true
+       }else{
+         this.open=false
+       }
+     })
+   }
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/yangyang-blog/project/gulu-ui/toast组件.html" class="prev">
+        Toast
+      </a></span> <span class="next"><a href="/yangyang-blog/project/gulu-ui/页面布局组件.html">
+        layout布局
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/yangyang-blog/assets/js/app.a824f6ad.js" defer></script><script src="/yangyang-blog/assets/js/2.8963be7f.js" defer></script><script src="/yangyang-blog/assets/js/31.99421758.js" defer></script>
+  </body>
+</html>

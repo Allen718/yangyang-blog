@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>开始第一个轮子，switch组件 | 个人主页</title>
+    <meta name="generator" content="VuePress 1.5.3">
+    
+    <meta name="description" content="杨杨的博客">
+    <link rel="preload" href="/yangyang-blog/assets/css/0.styles.ef1ea67f.css" as="style"><link rel="preload" href="/yangyang-blog/assets/js/app.a824f6ad.js" as="script"><link rel="preload" href="/yangyang-blog/assets/js/2.8963be7f.js" as="script"><link rel="preload" href="/yangyang-blog/assets/js/20.30d8a940.js" as="script"><link rel="prefetch" href="/yangyang-blog/assets/js/10.8bc5e3b5.js"><link rel="prefetch" href="/yangyang-blog/assets/js/11.3288c351.js"><link rel="prefetch" href="/yangyang-blog/assets/js/12.99786987.js"><link rel="prefetch" href="/yangyang-blog/assets/js/13.16893be0.js"><link rel="prefetch" href="/yangyang-blog/assets/js/14.dbd35d51.js"><link rel="prefetch" href="/yangyang-blog/assets/js/15.08d6872f.js"><link rel="prefetch" href="/yangyang-blog/assets/js/16.b2e9a03c.js"><link rel="prefetch" href="/yangyang-blog/assets/js/17.5a114ef1.js"><link rel="prefetch" href="/yangyang-blog/assets/js/18.45f17996.js"><link rel="prefetch" href="/yangyang-blog/assets/js/19.bb7f861f.js"><link rel="prefetch" href="/yangyang-blog/assets/js/21.df50662e.js"><link rel="prefetch" href="/yangyang-blog/assets/js/22.e9b97a2f.js"><link rel="prefetch" href="/yangyang-blog/assets/js/23.4d4146c7.js"><link rel="prefetch" href="/yangyang-blog/assets/js/24.a3abece6.js"><link rel="prefetch" href="/yangyang-blog/assets/js/25.d23ad90c.js"><link rel="prefetch" href="/yangyang-blog/assets/js/26.bbb8c4d0.js"><link rel="prefetch" href="/yangyang-blog/assets/js/27.d5b6268d.js"><link rel="prefetch" href="/yangyang-blog/assets/js/28.96024759.js"><link rel="prefetch" href="/yangyang-blog/assets/js/29.b9e7b7b4.js"><link rel="prefetch" href="/yangyang-blog/assets/js/3.492e666a.js"><link rel="prefetch" href="/yangyang-blog/assets/js/30.cc6a8fdc.js"><link rel="prefetch" href="/yangyang-blog/assets/js/31.99421758.js"><link rel="prefetch" href="/yangyang-blog/assets/js/32.018d7e0b.js"><link rel="prefetch" href="/yangyang-blog/assets/js/33.ce4e525a.js"><link rel="prefetch" href="/yangyang-blog/assets/js/34.ca08d911.js"><link rel="prefetch" href="/yangyang-blog/assets/js/35.377c9a13.js"><link rel="prefetch" href="/yangyang-blog/assets/js/36.599923fd.js"><link rel="prefetch" href="/yangyang-blog/assets/js/37.abec2f31.js"><link rel="prefetch" href="/yangyang-blog/assets/js/38.dab08b8a.js"><link rel="prefetch" href="/yangyang-blog/assets/js/39.87e3d604.js"><link rel="prefetch" href="/yangyang-blog/assets/js/4.e3b17ef2.js"><link rel="prefetch" href="/yangyang-blog/assets/js/40.40c87c5f.js"><link rel="prefetch" href="/yangyang-blog/assets/js/41.d2e5a34b.js"><link rel="prefetch" href="/yangyang-blog/assets/js/42.7b09e708.js"><link rel="prefetch" href="/yangyang-blog/assets/js/43.15065050.js"><link rel="prefetch" href="/yangyang-blog/assets/js/44.a6da690c.js"><link rel="prefetch" href="/yangyang-blog/assets/js/45.4ded5c79.js"><link rel="prefetch" href="/yangyang-blog/assets/js/46.4b4c52a9.js"><link rel="prefetch" href="/yangyang-blog/assets/js/47.298bf686.js"><link rel="prefetch" href="/yangyang-blog/assets/js/48.1334e1af.js"><link rel="prefetch" href="/yangyang-blog/assets/js/49.96860a4c.js"><link rel="prefetch" href="/yangyang-blog/assets/js/5.cb67b430.js"><link rel="prefetch" href="/yangyang-blog/assets/js/50.d07aca54.js"><link rel="prefetch" href="/yangyang-blog/assets/js/51.6f6b1a0c.js"><link rel="prefetch" href="/yangyang-blog/assets/js/52.1ae2275e.js"><link rel="prefetch" href="/yangyang-blog/assets/js/53.ea310c17.js"><link rel="prefetch" href="/yangyang-blog/assets/js/54.c35911e6.js"><link rel="prefetch" href="/yangyang-blog/assets/js/55.b21af298.js"><link rel="prefetch" href="/yangyang-blog/assets/js/6.a746c800.js"><link rel="prefetch" href="/yangyang-blog/assets/js/7.1764c4c7.js"><link rel="prefetch" href="/yangyang-blog/assets/js/8.22ff36bb.js"><link rel="prefetch" href="/yangyang-blog/assets/js/9.051e6cac.js">
+    <link rel="stylesheet" href="/yangyang-blog/assets/css/0.styles.ef1ea67f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/yangyang-blog/" class="home-link router-link-active"><img src="/yangyang-blog/image/logo.png" alt="个人主页" class="logo"> <span class="site-name can-hide">个人主页</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/yangyang-blog/basic/" class="nav-link">
+  基础知识
+</a></div><div class="nav-item"><a href="/yangyang-blog/project/" class="nav-link router-link-active">
+  项目笔记
+</a></div><div class="nav-item"><a href="/yangyang-blog/mistake/" class="nav-link">
+  面试题
+</a></div><div class="nav-item"><a href="https://github.com/Allen718/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/yangyang-blog/basic/" class="nav-link">
+  基础知识
+</a></div><div class="nav-item"><a href="/yangyang-blog/project/" class="nav-link router-link-active">
+  项目笔记
+</a></div><div class="nav-item"><a href="/yangyang-blog/mistake/" class="nav-link">
+  面试题
+</a></div><div class="nav-item"><a href="https://github.com/Allen718/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>前端导航</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/yangyang-blog/project/nav/导航项目.html" class="sidebar-link">项目介绍</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span> 快速记账 vue版本</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span> 轻松记账 react版本</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span> 造轮子 vue2.0版本</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span> 造轮子 vue3.0版本</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/yangyang-blog/project/GUlu/序言.html" class="sidebar-link">序言</a></li><li><a href="/yangyang-blog/project/GUlu/环境搭建.html" class="sidebar-link">创建项目</a></li><li><a href="/yangyang-blog/project/GUlu/button组件.html" class="sidebar-link">开始制作button组件</a></li><li><a href="/yangyang-blog/project/GUlu/switch组件.html" class="active sidebar-link">开始第一个轮子，switch组件</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="开始第一个轮子，switch组件"><a href="#开始第一个轮子，switch组件" class="header-anchor">#</a> 开始第一个轮子，switch组件</h3> <ol><li>在components新建一个Switch-demo的组件，并为它添加路径，在main.ts的文件里面关于router添加路径与组件，并使它能够访问到。将关于vue router内容
+抽离为一个单独的ts文件。并在docs组件里使用routerview标签，给出相应的渲染区域。</li></ol> <div class="language- extra-class"><pre class="language-text"><code>import {createRouter, createWebHashHistory} from &quot;vue-router&quot;;
+import home from &quot;./views/home.vue&quot;;
+import docs from &quot;./views/docs.vue&quot;;
+import SwitchDemo from &quot;./components/Switch-demo.vue&quot;;
+const history = createWebHashHistory()
+  export const router = createRouter({
+  history: history,
+  routes: [{ path: '/', component: home },
+    { path: '/docs', component: docs ,children:[
+        {path:'',component:DocsDemo},//默认显示页面
+        {path:'switch',component:SwitchDemo},//swith页面
+       
+</code></pre></div><ol start="2"><li>在src目录下新建一个lib 目录，创建Switch.vue.switch表示在两种状态间切换时用到的开关选择器。api设计当value为'true'或是true时表示开，其余值都为关。</li></ol> <div class="language- extra-class"><pre class="language-text"><code>&lt;Switch value=&quot;true&quot; /&gt; value 为字符串 &quot;true&quot;
+&lt;Switch value=&quot;false&quot; /&gt; value 为字符串 &quot;false&quot;
+&lt;Switch :value=&quot;  true  &quot; /&gt; value 为布尔值 true
+&lt;Switch :value=&quot;  false  &quot; /&gt; value 为布尔值 false
+</code></pre></div><p>3.开始写代码，先写html再写css 最后再写js ,参考其他网站的switch ,基本上都是一个一个button按钮，里面再有一个小圆圈，为一个span标签，关于html和css都是可以参考其他网站样式的
+4. houver之后右滚，可以修改相对定位，hover之后修改left的值，采用计算<code>left:calc(100% -#{$h} -2px)</code>,添加上动画使用css transition.
+5. switch 正常应该是点击以后右滚，开始实现此功能，首先，需要一个数据，点击后修改数据，来切换。在switch组件里面定义一个数据，当点击修改数据，通过给组件添加类的方式修改样式。
+代码实现,</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;button @click=&quot;toggle&quot; :class=&quot;{checked}&quot;&gt; &lt;span&gt;&lt;/span&gt; &lt;/button&gt;
+ setup(){
+    const checked = ref(false)
+    const toggle = ()=&gt;{
+      checked.value = !checked.value
+    }
+    return {checked, toggle}
+  }
+</code></pre></div><p>一个switch的功能就实现了，但请注意一个问题，用户使用了这个组件，用户就不能修改这个默认的状态，假设我们设置默认为关闭的状态但是使用者想要默认开启状态做不到，并且添加功能也不现实。</p> <ol start="6"><li>上面分析，switch组件存在着问题，switch 组件控制开关的数据应该由外部传入，并不应该是内部数据，所以需要使用到vue3的props,在Switch-demo组件里传入数据，switch组件接受数据然后做出反应</li></ol> <div class="language- extra-class"><pre class="language-text"><code>&lt;Switch :value=&quot;y&quot; @input=&quot;y=$event&quot; /&gt;
+ setup(){
+     const y=ref(false)
+    return{y}
+  }
+  switch组件
+   &lt;button @click=&quot;toggle&quot; :class=&quot;{checked:value}&quot;&gt; &lt;span&gt;&lt;/span&gt; &lt;/button&gt;
+    setup(props, context){
+    const toggle = ()=&gt;{
+      context.emit('input', !props.value)//与vue2有区别this.$emit() 
+    }
+</code></pre></div><ol start="7"><li>vue3的v-model，数据双向绑定，vue3已经取消.sync修饰符，如果想要使用数据双向绑定首先事件触发的事件名固定格式<code>context.emit('update:value', !props.value)</code>,然后监听<code>&lt;Switch v-model:value=&quot;y&quot;/&gt;</code></li> <li>整理代码，组件基本完成</li></ol></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/yangyang-blog/project/GUlu/button组件.html" class="prev">
+        开始制作button组件
+      </a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/yangyang-blog/assets/js/app.a824f6ad.js" defer></script><script src="/yangyang-blog/assets/js/2.8963be7f.js" defer></script><script src="/yangyang-blog/assets/js/20.30d8a940.js" defer></script>
+  </body>
+</html>

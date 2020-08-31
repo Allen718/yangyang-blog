@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>开始制作button组件 | 个人主页</title>
+    <meta name="generator" content="VuePress 1.5.3">
+    
+    <meta name="description" content="杨杨的博客">
+    <link rel="preload" href="/yangyang-blog/assets/css/0.styles.ef1ea67f.css" as="style"><link rel="preload" href="/yangyang-blog/assets/js/app.a824f6ad.js" as="script"><link rel="preload" href="/yangyang-blog/assets/js/2.8963be7f.js" as="script"><link rel="preload" href="/yangyang-blog/assets/js/19.bb7f861f.js" as="script"><link rel="prefetch" href="/yangyang-blog/assets/js/10.8bc5e3b5.js"><link rel="prefetch" href="/yangyang-blog/assets/js/11.3288c351.js"><link rel="prefetch" href="/yangyang-blog/assets/js/12.99786987.js"><link rel="prefetch" href="/yangyang-blog/assets/js/13.16893be0.js"><link rel="prefetch" href="/yangyang-blog/assets/js/14.dbd35d51.js"><link rel="prefetch" href="/yangyang-blog/assets/js/15.08d6872f.js"><link rel="prefetch" href="/yangyang-blog/assets/js/16.b2e9a03c.js"><link rel="prefetch" href="/yangyang-blog/assets/js/17.5a114ef1.js"><link rel="prefetch" href="/yangyang-blog/assets/js/18.45f17996.js"><link rel="prefetch" href="/yangyang-blog/assets/js/20.30d8a940.js"><link rel="prefetch" href="/yangyang-blog/assets/js/21.df50662e.js"><link rel="prefetch" href="/yangyang-blog/assets/js/22.e9b97a2f.js"><link rel="prefetch" href="/yangyang-blog/assets/js/23.4d4146c7.js"><link rel="prefetch" href="/yangyang-blog/assets/js/24.a3abece6.js"><link rel="prefetch" href="/yangyang-blog/assets/js/25.d23ad90c.js"><link rel="prefetch" href="/yangyang-blog/assets/js/26.bbb8c4d0.js"><link rel="prefetch" href="/yangyang-blog/assets/js/27.d5b6268d.js"><link rel="prefetch" href="/yangyang-blog/assets/js/28.96024759.js"><link rel="prefetch" href="/yangyang-blog/assets/js/29.b9e7b7b4.js"><link rel="prefetch" href="/yangyang-blog/assets/js/3.492e666a.js"><link rel="prefetch" href="/yangyang-blog/assets/js/30.cc6a8fdc.js"><link rel="prefetch" href="/yangyang-blog/assets/js/31.99421758.js"><link rel="prefetch" href="/yangyang-blog/assets/js/32.018d7e0b.js"><link rel="prefetch" href="/yangyang-blog/assets/js/33.ce4e525a.js"><link rel="prefetch" href="/yangyang-blog/assets/js/34.ca08d911.js"><link rel="prefetch" href="/yangyang-blog/assets/js/35.377c9a13.js"><link rel="prefetch" href="/yangyang-blog/assets/js/36.599923fd.js"><link rel="prefetch" href="/yangyang-blog/assets/js/37.abec2f31.js"><link rel="prefetch" href="/yangyang-blog/assets/js/38.dab08b8a.js"><link rel="prefetch" href="/yangyang-blog/assets/js/39.87e3d604.js"><link rel="prefetch" href="/yangyang-blog/assets/js/4.e3b17ef2.js"><link rel="prefetch" href="/yangyang-blog/assets/js/40.40c87c5f.js"><link rel="prefetch" href="/yangyang-blog/assets/js/41.d2e5a34b.js"><link rel="prefetch" href="/yangyang-blog/assets/js/42.7b09e708.js"><link rel="prefetch" href="/yangyang-blog/assets/js/43.15065050.js"><link rel="prefetch" href="/yangyang-blog/assets/js/44.a6da690c.js"><link rel="prefetch" href="/yangyang-blog/assets/js/45.4ded5c79.js"><link rel="prefetch" href="/yangyang-blog/assets/js/46.4b4c52a9.js"><link rel="prefetch" href="/yangyang-blog/assets/js/47.298bf686.js"><link rel="prefetch" href="/yangyang-blog/assets/js/48.1334e1af.js"><link rel="prefetch" href="/yangyang-blog/assets/js/49.96860a4c.js"><link rel="prefetch" href="/yangyang-blog/assets/js/5.cb67b430.js"><link rel="prefetch" href="/yangyang-blog/assets/js/50.d07aca54.js"><link rel="prefetch" href="/yangyang-blog/assets/js/51.6f6b1a0c.js"><link rel="prefetch" href="/yangyang-blog/assets/js/52.1ae2275e.js"><link rel="prefetch" href="/yangyang-blog/assets/js/53.ea310c17.js"><link rel="prefetch" href="/yangyang-blog/assets/js/54.c35911e6.js"><link rel="prefetch" href="/yangyang-blog/assets/js/55.b21af298.js"><link rel="prefetch" href="/yangyang-blog/assets/js/6.a746c800.js"><link rel="prefetch" href="/yangyang-blog/assets/js/7.1764c4c7.js"><link rel="prefetch" href="/yangyang-blog/assets/js/8.22ff36bb.js"><link rel="prefetch" href="/yangyang-blog/assets/js/9.051e6cac.js">
+    <link rel="stylesheet" href="/yangyang-blog/assets/css/0.styles.ef1ea67f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/yangyang-blog/" class="home-link router-link-active"><img src="/yangyang-blog/image/logo.png" alt="个人主页" class="logo"> <span class="site-name can-hide">个人主页</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/yangyang-blog/basic/" class="nav-link">
+  基础知识
+</a></div><div class="nav-item"><a href="/yangyang-blog/project/" class="nav-link router-link-active">
+  项目笔记
+</a></div><div class="nav-item"><a href="/yangyang-blog/mistake/" class="nav-link">
+  面试题
+</a></div><div class="nav-item"><a href="https://github.com/Allen718/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/yangyang-blog/basic/" class="nav-link">
+  基础知识
+</a></div><div class="nav-item"><a href="/yangyang-blog/project/" class="nav-link router-link-active">
+  项目笔记
+</a></div><div class="nav-item"><a href="/yangyang-blog/mistake/" class="nav-link">
+  面试题
+</a></div><div class="nav-item"><a href="https://github.com/Allen718/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>前端导航</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/yangyang-blog/project/nav/导航项目.html" class="sidebar-link">项目介绍</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span> 快速记账 vue版本</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span> 轻松记账 react版本</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span> 造轮子 vue2.0版本</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span> 造轮子 vue3.0版本</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/yangyang-blog/project/GUlu/序言.html" class="sidebar-link">序言</a></li><li><a href="/yangyang-blog/project/GUlu/环境搭建.html" class="sidebar-link">创建项目</a></li><li><a href="/yangyang-blog/project/GUlu/button组件.html" class="active sidebar-link">开始制作button组件</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/yangyang-blog/project/GUlu/switch组件.html" class="sidebar-link">开始第一个轮子，switch组件</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="开始制作button组件"><a href="#开始制作button组件" class="header-anchor">#</a> 开始制作button组件</h3> <ol><li>在lib目录下新建一个Button.vue组件，然后在Button-demo组件引入，需求分析，这个button按钮可以是链接，可以是文字，可以 click、focus、鼠标悬浮，可以改变 size：大中小，可以禁用（disabled），可以加载中（loading）</li> <li>想api,支持点击，focus，mouseOver,文字，图标或是链接，尺寸的大中小，不可用状态，加载中状态。
+3.开始写代码， 让Button支持@click @focus @mouseover，在vue3中的自定义组件使用@click,@focus @mouseover会自动将这些事件绑定到最外层元素上，就拿Button组件举例来说，</li></ol> <div class="language- extra-class"><pre class="language-text"><code>&lt;Button @click=&quot;onClick&quot; @focus=&quot;onClick&quot; @mouseenter=&quot;onClick&quot;&gt;你好&lt;/Button&gt; 
+  setup(){
+      const onClick=()=&gt;{
+        console.log('hi')
+      }
+      return{onClick}
+    }
+
+</code></pre></div><p>此时当我们点击页面按钮，就会执行<code>console.log('hi')</code>,但如果在Button组件里面的结构是</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;div&gt;
+    &lt;button &gt;
+      &lt;slot/&gt;
+    &lt;/button&gt;
+  &lt;/div&gt;
+</code></pre></div><p>此时是将click focus绑定在div元素上的，但其实我们想要的是绑在button元素上面，具体步骤</p> <ul><li>首先让div元素不在具有继承性<code>inheritAttrs:false</code>,然后将需要继承的东西挂在button元素上<code>&lt;button v-bind=&quot;$attrs&quot;&gt;</code></li> <li>如果我们想要div元素继承一些，button元素再继承一些，那么也是可以做到的，</li></ul> <div class="language- extra-class"><pre class="language-text"><code>&lt;div @click=&quot;onClick&quot;&gt;
+  &lt;button v-bind=&quot;rest&quot;&gt;
+    &lt;slot/&gt;
+  &lt;/button&gt;
+setup(props,context){
+    const {onClick,onFocus,onMouseOver,...rest}=context.attrs
+    return {onClick,rest}
+  }
+  
+</code></pre></div><p>总结：默认所有属性都绑定到根元素
+使用 <code>inheritAttrs: false</code> 可以取消默认绑定
+使用 <code>$attrs</code> 或者 <code>context.attrs</code> 获取所有属性
+使用<code>v-bind=&quot;$attrs&quot;</code> 批量绑定属性
+使用 <code>const {size, level, ...xxx} = context.attrs</code> 将属性分开</p> <ol start="4"><li>关于props与attrs的区别，props 要先声明才能取值，attrs 不用先声明
+props 不包含事件，attrs 包含props 没有声明的属性，会跑到 attrs 里
+props 支持 string 以外的类型，attrs 只有 string 类型,例如props支持boolean</li> <li>让button 支持theme属性，初步设定按钮支持三种，一种普通按钮 一种为文本按钮，还有一种跳转按钮。</li></ol> <div class="language- extra-class"><pre class="language-text"><code>props:{
+theme:{
+        type:String,
+        default:'button'
+      }
+}
+:class=&quot;`theme-${theme}`如果不传默认值，就写成下面这种
+:class=&quot;{[`theme-${theme}`]:theme}&quot;
+</code></pre></div><p>6.给button 添加基本样式,一些css样式的解释 <code>white-space: nowrap;</code> <code>&amp; + &amp; { margin-left: 8px; }</code>两个buton</p> <ol start="7"><li>ui库的css使用注意事项，不要使用scoped,因为data-v-xxx中的xxx每次运行可能不同，必须输出稳定不变的class选择器，方便使用者覆盖，在我们造组件的过程中，给各元素命名的时候最好加上前缀，免得被使用者覆盖。</li> <li>css最小影响原则，在我们创建这些个组件的时候，我们都默认是<code>border-box;padding:0;margin:0</code>但是如果使用者并不设置这样的话就很可能使得我们写的组件的样式出现问题，这当然是我们不乐意看见的，并且我们需要防止出现这个问题，所以新建一个专门给组件添加样式的文件，gulu.scss,然后将我们组件初始化的样式都放进这个文件里面，然后再main.ts文件中引入即可。</li> <li>然后开始然button组件支持第一个属性，就是theme，根据我们所设想的应该有不同按钮，文字类型，链接类型，还有图标类型，基本上这些都要靠css实现，所以我们要给不同的theme添加不同类名，通过类名来添加样式。后面的size disabled level loading 属性都是这一套路。</li></ol> <div class="language- extra-class"><pre class="language-text"><code> props: {
+      icon:{
+        type:String,
+
+      },
+      theme: {
+        type: String,
+        default: 'button'
+      },
+      size: {
+        type: String,
+        default: 'normal'
+      },
+      level: {
+        type: String,
+        default: 'normal'
+      },
+      disabled: {
+        type: Boolean,
+        default: false,
+      },
+      loading:{
+        type:Boolean,
+        default:false
+      }
+    },
+    setup(props) {
+      const {theme, size, level,loading,icon} = props;
+      const classes = computed(() =&gt; {
+        return {
+          [`gulu-theme-${theme}`]: theme,
+          [`gulu-size-${size}`]: size,
+          [`gulu-level-${level}`]: level,
+          [`gulu-loading`]:loading
+        };
+      });
+
+      return {classes};
+    },
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/yangyang-blog/project/GUlu/环境搭建.html" class="prev">
+        创建项目
+      </a></span> <span class="next"><a href="/yangyang-blog/project/GUlu/switch组件.html">
+        开始第一个轮子，switch组件
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/yangyang-blog/assets/js/app.a824f6ad.js" defer></script><script src="/yangyang-blog/assets/js/2.8963be7f.js" defer></script><script src="/yangyang-blog/assets/js/19.bb7f861f.js" defer></script>
+  </body>
+</html>
